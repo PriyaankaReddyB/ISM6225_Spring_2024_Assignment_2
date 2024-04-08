@@ -120,6 +120,14 @@ namespace ISM6225_Spring_2024_Assignment_2
                     // If the current element is a duplicate, continue to the next element
                 }
 
+                // Print the modified array with unique elements
+                Console.Write("The array of unique elements: ");
+                for (int i = 0; i <= currentIndex; i++)
+                {
+                    Console.Write(nums[i] + " ");
+                }
+                Console.WriteLine();
+
                 // Return count of unique elements
                 return currentIndex + 1;
             }
